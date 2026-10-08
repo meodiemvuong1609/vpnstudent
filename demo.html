@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VPN Student Russia — Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>VPN Student Russia — VPN &amp; foreground service demo</h1>
+<p>Screen recording of the release build on Android 15:</p>
+<ol>
+  <li>The user taps <strong>Connect</strong>. The app starts its <code>VpnService</code> as a user-initiated foreground service.</li>
+  <li>The status changes to <strong>Connected</strong>, with live connection time and traffic. The VPN key icon appears in the status bar.</li>
+  <li>The persistent notification shows the server name, the status and a <strong>Disconnect</strong> button.</li>
+  <li>The user taps <strong>Disconnect</strong> in the notification. The tunnel and the foreground service stop and the notification is removed.</li>
+</ol>
+<video src="demo.mp4" controls playsinline muted style="max-width:360px;width:100%;border-radius:12px"></video>
+<p><a href="demo.mp4">Direct link to the video (MP4)</a> · <a href="privacy.html">Privacy Policy</a></p>
+</main>
+</body>
+</html>
